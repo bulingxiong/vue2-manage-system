@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import App from './App.vue'
-<<<<<<< HEAD
 import {
   Button, Radio, Container, Main, Header, Aside, Menu, Submenu,
   MenuItem, MenuItemGroup, Dropdown, DropdownMenu, DropdownItem,
@@ -75,11 +74,3 @@ new Vue({
     store.commit('addMenu', router)
   }
 }).$mount("#app");
-=======
-
-Vue.config.productionTip = false
-
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
->>>>>>> 2d2751b418fb1bbf4976252d35ae549e3c9004c5
